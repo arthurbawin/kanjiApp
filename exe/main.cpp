@@ -328,7 +328,7 @@ int main(){
 	// }
 
 	if(lvl2){
-		printf("The focus is on the kanjis from JPN1903. Choose the frequency (in %, integer number in [1,100]) with which they will appear. The rest will be from a mix of previous courses.\n");
+		printf("The focus is on the kanjis from JPN1903. Choose the frequency (in percents, integer number in [1,100]) with which they will appear. The rest will be from a mix of previous courses.\n");
 		cin >> input;
 		while(stoi(input) < 0 || stoi(input) > 100){
 			printf("Wrong entry for the ratio of new kanji, please type again\n");
@@ -343,7 +343,7 @@ int main(){
 		size_t totalKanjis = ceil(kanji1903.size() / (ratioOfNewKanji/100.0) );
 		size_t toAdd = ceil(totalKanjis * (1. - ratioOfNewKanji/100.0) );
 
-		printf("Asking %d  percents of kanji from JPN1903 (%d total) - There should be %d total kanji - Adding %d old kanji\n",
+		printf("Asking %d  percents of kanji from JPN1903 (%ld total) - There should be %ld total kanji - Adding %ld old kanji\n",
 			ratioOfNewKanji, kanji1903.size(), totalKanjis, toAdd);
 
 		random_shuffle(begin(kanji1902), end(kanji1902));
