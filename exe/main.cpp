@@ -280,8 +280,8 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "足 (seul)", "あし", "pied, jambe"));
 	myFlashCards.push_back(flashCard(3, "出る (seul)", "でる", "sortir"));
 	myFlashCards.push_back(flashCard(3, "入る (seul)", "はいる", "entrer"));
-	myFlashCards.push_back(flashCard(3, "週 (seul)", "", "semaine"));
-	myFlashCards.push_back(flashCard(3, "道 (seul)", "", "route, voie, chemin"));
+	myFlashCards.push_back(flashCard(3, "週 (seul)", "しゅう", "semaine"));
+	myFlashCards.push_back(flashCard(3, "道 (seul)", "みち", "route, voie, chemin"));
 	myFlashCards.push_back(flashCard(3, "店先", "みせさき", "devanture d'une boutique"));
 	myFlashCards.push_back(flashCard(3, "店いん", "てんいん", "employé d'une boutique"));
 	myFlashCards.push_back(flashCard(3, "きっさ店", "きっさてん", "café, salon de thé"));
