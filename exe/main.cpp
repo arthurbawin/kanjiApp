@@ -394,7 +394,7 @@ int main(){
 
 		}	else{
 			bool result = card.checkAnswerHiragana(input);
-			printf("Valeur entrée : %s - Hiragana : %s - Traduction : %s ------> %s\n",
+			printf("Valeur entrée : %s - Hiragana : %s - Traduction : %s ------> %s\n\n\n",
 				input.data(), card.getHiragana().data(), card.getTraduction().data(), (result ? "Success!" : "Mauvaise réponse )-:"));
 
 			if(result){
