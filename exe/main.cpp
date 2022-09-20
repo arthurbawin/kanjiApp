@@ -252,7 +252,7 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "安しん", "あんしん", "tranquilité d'esprit"));
 	myFlashCards.push_back(flashCard(3, "安てい", "あんてい", "stabilité"));
 	myFlashCards.push_back(flashCard(3, "家ぞく", "かぞく", "famille"));
-	myFlashCards.push_back(flashCard(3, "一けん家", "いっけにゃ", "maison individuelle"));
+	myFlashCards.push_back(flashCard(3, "一けん家", "いっけんや", "maison individuelle"));
 	myFlashCards.push_back(flashCard(3, "教室", "きょうしつ", "salle de classe"));
 	myFlashCards.push_back(flashCard(3, "わ室", "わしつ", "pièce japonaise"));
 	myFlashCards.push_back(flashCard(3, "海　(seul)", "うみ", "mer"));
@@ -293,7 +293,7 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "入り口", "いりぐち", "entrée"));
 	myFlashCards.push_back(flashCard(3, "出入り口", "でいりぐち", "entrée et sortie"));
 	myFlashCards.push_back(flashCard(3, "入れる", "いれる", "mettre dans, verser"));
-	myFlashCards.push_back(flashCard(3, "入こく", "にゅこく", "entrée dans un pays"));
+	myFlashCards.push_back(flashCard(3, "入こく", "にゅうこく", "entrée dans un pays"));
 	myFlashCards.push_back(flashCard(3, "来週", "らいしゅう", "semaine prochaine"));
 	myFlashCards.push_back(flashCard(3, "週まつ", "しゅうまつ", "fin de semaine, week-end"));
 	myFlashCards.push_back(flashCard(3, "しゃ道", "しゃどう", "chaussée"));
