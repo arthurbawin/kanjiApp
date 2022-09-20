@@ -378,7 +378,7 @@ int main(){
 			card = myFlashCards[random];
 
 			printf("Quel est ce kanji (T pour voir la traduction - STOP pour quitter) : %s - Progression : %3d/%3d - Restants : %ld\n", 
-				card.getKanji().data(), corrects++, listSize, myFlashCards.size());
+				card.getKanji().data(), corrects, listSize, myFlashCards.size());
 		}
 
 		cin >> input;
@@ -400,6 +400,7 @@ int main(){
 			if(result){
 				// Remove kanji from the list on success
 				myFlashCards.erase(myFlashCards.begin() + random);
+				corrects++;
 			}
 			askAgain = false;
 		}
