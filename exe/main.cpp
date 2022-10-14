@@ -298,7 +298,6 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "週まつ", "しゅうまつ", "fin de semaine, week-end"));
 	myFlashCards.push_back(flashCard(3, "しゃ道", "しゃどう", "chaussée"));
 	myFlashCards.push_back(flashCard(3, "しん道", "しんとう", "shintô, shintoïsme"));
-
 	myFlashCards.push_back(flashCard(3, "馬 (seul)", "うま", "cheval"));
 	myFlashCards.push_back(flashCard(3, "駅 (seul)", "えき", "gare, station"));
 	myFlashCards.push_back(flashCard(3, "車 (seul)", "くるま", "véhicule, voiture"));
@@ -321,6 +320,7 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "おり紙", "おりがみ", "origami, papier origami"));
 	myFlashCards.push_back(flashCard(3, "病気", "びょうき", "maladie, malade"));
 	myFlashCards.push_back(flashCard(3, "病いん", "びょういん", "hôpital"));
+
 	myFlashCards.push_back(flashCard(3, "点 (seul)", "てん", "point, note"));
 	myFlashCards.push_back(flashCard(3, "州 (seul)", "しゅう", "province, état, région"));
 	myFlashCards.push_back(flashCard(3, "少ない (seul)", "すくない", "peu nombreux, peu"));
@@ -342,6 +342,7 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "西南", "せいなん", "sud-ouest"));
 	myFlashCards.push_back(flashCard(3, "東よう", "とうよう", "l'Orient"));
 	myFlashCards.push_back(flashCard(3, "西よう", "せいよう", "l'Occident"));
+
 	myFlashCards.push_back(flashCard(3, "北 (seul)", "きた", "le nord"));
 	myFlashCards.push_back(flashCard(3, "手 (seul)", "て", "main"));
 	myFlashCards.push_back(flashCard(3, "持つ (seul)", "もつ", "prendre, avoir"));
@@ -364,6 +365,48 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "時計", "とけい", "montre"));
 	myFlashCards.push_back(flashCard(3, "計かく", "けいかく", "plan, projet"));
 	myFlashCards.push_back(flashCard(3, "計さん", "けいさん", "calcul"));
+
+	myFlashCards.push_back(flashCard(3, "書く　(seul)", "かく", "écrire"));
+	myFlashCards.push_back(flashCard(3, "名　(seul)", "な", "nom, prénom"));
+	myFlashCards.push_back(flashCard(3, "前　(seul)", "まえ", "devant, avant"));
+	myFlashCards.push_back(flashCard(3, "後ろ　(seul)", "うしろ", "derrière"));
+	myFlashCards.push_back(flashCard(3, "午　(seul)", "ご", "(heure du) cheval (11h à 13h)"));
+	myFlashCards.push_back(flashCard(3, "受ける　(seul)", "うける", "recevoir, accepter, subir"));
+	myFlashCards.push_back(flashCard(3, "教か書", "きょうかしょ", "manuel"));
+	myFlashCards.push_back(flashCard(3, "名し", "めいし", "carte d'affaires"));
+	myFlashCards.push_back(flashCard(3, "ゆう名", "ゆうめい", "célèbre"));
+	myFlashCards.push_back(flashCard(3, "名じ", "みょうじ", "nom de famille"));
+	myFlashCards.push_back(flashCard(3, "名前", "なまえ", "nom"));
+	myFlashCards.push_back(flashCard(3, "前後", "ぜんご", "environ"));
+	myFlashCards.push_back(flashCard(3, "後　(seul, pour le temps)", "あと", "après, plus tard"));
+	myFlashCards.push_back(flashCard(3, "後はい", "こうはい", "cadet"));
+	myFlashCards.push_back(flashCard(3, "午後", "ごご", "après-midi"));
+	myFlashCards.push_back(flashCard(3, "午前", "ごぜん", "avant-midi"));
+	myFlashCards.push_back(flashCard(3, "しょう午", "しょうご", "midi"));
+	myFlashCards.push_back(flashCard(3, "受かる", "うかる", "être reçu (à un examen)"));
+	myFlashCards.push_back(flashCard(3, "受けんする", "じゅけんする", "subir un examen"));
+
+	myFlashCards.push_back(flashCard(3, "付ける(seul)", "つける", "attacher, coller"));
+	myFlashCards.push_back(flashCard(3, "帰る　(seul)", "かえる", "revenir"));
+	myFlashCards.push_back(flashCard(3, "朝　(seul)", "あさ", "le matin"));
+	myFlashCards.push_back(flashCard(3, "昼　(seul)", "ひる", "le jour"));
+	myFlashCards.push_back(flashCard(3, "晩　(seul)", "ばん", "le soir, tard, fin"));
+	myFlashCards.push_back(flashCard(3, "元　(seul)", "もと", "origine, base, début"));
+	myFlashCards.push_back(flashCard(3, "受付", "うけつけ", "réception (entreprise)"));
+	myFlashCards.push_back(flashCard(3, "気を付ける", "きをつける", "faire attention"));
+	myFlashCards.push_back(flashCard(3, "気が付く", "きがつく", "se rendre compte"));
+	myFlashCards.push_back(flashCard(3, "気付く", "きづく", "se rendre compte"));
+	myFlashCards.push_back(flashCard(3, "てん付する", "てんぷする", "joindre, annexer"));
+	myFlashCards.push_back(flashCard(3, "帰国", "きこく", "retour au pays"));
+	myFlashCards.push_back(flashCard(3, "朝日", "あさひ", "soleil du matin"));
+	myFlashCards.push_back(flashCard(3, "朝食", "ちょうしょく", "petit déjeûner"));
+	myFlashCards.push_back(flashCard(3, "昼間", "ひるま", "jour, pendant le jour"));
+	myFlashCards.push_back(flashCard(3, "昼食", "ちゅうしょく", "repas du midi"));
+	myFlashCards.push_back(flashCard(3, "今晩", "こんばん", "ce soir"));
+	myFlashCards.push_back(flashCard(3, "毎晩", "まいばん", "tous les soirs"));
+	myFlashCards.push_back(flashCard(3, "晩冬", "ばんとう", "fin de l'hiver"));
+	myFlashCards.push_back(flashCard(3, "元気", "げんき", "vigueur, être en forme"));
+	myFlashCards.push_back(flashCard(3, "地元", "じもと", "local, régional, (gens) de la place"));
 
 	return myFlashCards;
 }
