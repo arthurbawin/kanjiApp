@@ -20,22 +20,22 @@ static vector<flashCard> createKanjiListJPN1902()
 	myFlashCards.push_back(flashCard(2, "間 (seul)", "あいだ", "entre"));
 	myFlashCards.push_back(flashCard(2, "問い (seul)", "とい", "question"));
 	myFlashCards.push_back(flashCard(2, "聞く (seul)", "きく", "demander, écouter"));
-	myFlashCards.push_back(flashCard(2, "一人目"     , "ひとりめ", "première personne"));
-	myFlashCards.push_back(flashCard(2, "二人目"     , "ふたりめ", "deuxième personne"));
-	myFlashCards.push_back(flashCard(2, "三人目"     , "さんにんめ", "troisième personne"));
-	myFlashCards.push_back(flashCard(2, "目てき"     , "もくてき", "but, objectif"));
-	myFlashCards.push_back(flashCard(2, "か目"       , "かもく", "matière, discipline"));
+	myFlashCards.push_back(flashCard(2, "一人目", "ひとりめ", "première personne"));
+	myFlashCards.push_back(flashCard(2, "二人目", "ふたりめ", "deuxième personne"));
+	myFlashCards.push_back(flashCard(2, "三人目", "さんにんめ", "troisième personne"));
+	myFlashCards.push_back(flashCard(2, "目てき", "もくてき", "but, objectif"));
+	myFlashCards.push_back(flashCard(2, "か目", "かもく", "matière, discipline"));
 	myFlashCards.push_back(flashCard(2, "ちゅう耳えん", "ちゅうじえん", "otite de l'oreille moyenne"));
-	myFlashCards.push_back(flashCard(2, "ぶ門"       , "ぶもん", "section, secteur, classe, catégorie"));
-	myFlashCards.push_back(flashCard(2, "せん門"     , "せんもん", "spécialité, domaine d'études"));
-	myFlashCards.push_back(flashCard(2, "じ間"       , "じかん", "temps"));
-	myFlashCards.push_back(flashCard(2, "人間"       , "にんげん", "être humain"));
-	myFlashCards.push_back(flashCard(2, "ひる間"     , "ひるま", "le jour, pendant le jour"));
-	myFlashCards.push_back(flashCard(2, "問う"       , "とう", "demander, questionner"));
-	myFlashCards.push_back(flashCard(2, "問いあわせ"  , "といあわせ", "demande de renseignements"));
-	myFlashCards.push_back(flashCard(2, "しつ問"     , "しつもん", "question"));
-	myFlashCards.push_back(flashCard(2, "問だい"     , "もんだい", "problème"));
-	myFlashCards.push_back(flashCard(2, "しん聞"     , "しんぶん", "journal"));
+	myFlashCards.push_back(flashCard(2, "ぶ門", "ぶもん", "section, secteur, classe, catégorie"));
+	myFlashCards.push_back(flashCard(2, "せん門", "せんもん", "spécialité, domaine d'études"));
+	myFlashCards.push_back(flashCard(2, "じ間", "じかん", "temps"));
+	myFlashCards.push_back(flashCard(2, "人間", "にんげん", "être humain"));
+	myFlashCards.push_back(flashCard(2, "ひる間", "ひるま", "le jour, pendant le jour"));
+	myFlashCards.push_back(flashCard(2, "問う", "とう", "demander, questionner"));
+	myFlashCards.push_back(flashCard(2, "問いあわせ" , "といあわせ", "demande de renseignements"));
+	myFlashCards.push_back(flashCard(2, "しつ問", "しつもん", "question"));
+	myFlashCards.push_back(flashCard(2, "問だい", "もんだい", "problème"));
+	myFlashCards.push_back(flashCard(2, "しん聞", "しんぶん", "journal"));
 	myFlashCards.push_back(flashCard(2, "毎 (seul)", "まい", "chaque, tous les"));
 	myFlashCards.push_back(flashCard(2, "食べる (seul)", "たべる", "manger"));
 	myFlashCards.push_back(flashCard(2, "飲む (seul)", "のむ", "boire"));
@@ -408,8 +408,346 @@ static vector<flashCard> createKanjiListJPN1903()
 	myFlashCards.push_back(flashCard(3, "元気", "げんき", "vigueur, être en forme"));
 	myFlashCards.push_back(flashCard(3, "地元", "じもと", "local, régional, (gens) de la place"));
 
+	myFlashCards.push_back(flashCard(3, "箱 (seul)", "はこ", "boîte, coffre"));
+	myFlashCards.push_back(flashCard(3, "屋 (seul)", "や", "boutique, marchand"));
+	myFlashCards.push_back(flashCard(3, "立つ (seul)", "たつ", "se lever debout"));
+	myFlashCards.push_back(flashCard(3, "音　(seul)", "おと", "son, bruit"));
+	myFlashCards.push_back(flashCard(3, "暗い　(seul)", "くらい", "sombre"));
+	myFlashCards.push_back(flashCard(3, "白い　(seul)", "しろい", "c'est blanc"));
+	myFlashCards.push_back(flashCard(3, "部屋", "へや", "pièce, chambre, salle"));
+	myFlashCards.push_back(flashCard(3, "ゴミ箱", "ごみばこ", "corbeille, poubelle"));
+	myFlashCards.push_back(flashCard(3, "箱入り", "はこいり", "mise(e) en boîte"));
+	myFlashCards.push_back(flashCard(3, "本屋", "ほんや", "librairie, libraire"));
+	myFlashCards.push_back(flashCard(3, "屋ね", "やね", "toit"));
+	myFlashCards.push_back(flashCard(3, "家屋", "かおく", "maison, bâtiment"));
+	myFlashCards.push_back(flashCard(3, "立てる", "たてる", "dresser, mettre debout"));
+	myFlashCards.push_back(flashCard(3, "国立", "こくりつ", "national"));
+	myFlashCards.push_back(flashCard(3, "き立する", "きりつする", "se mettre debout"));
+	myFlashCards.push_back(flashCard(3, "足音", "あしおと", "bruits de pas"));
+	myFlashCards.push_back(flashCard(3, "音読み", "おんよみ", "lecture onyomi"));
+	myFlashCards.push_back(flashCard(3, "はつ音", "はつおん", "prononciation"));
+	myFlashCards.push_back(flashCard(3, "暗記", "あんき", "apprentissage par coeur"));
+	myFlashCards.push_back(flashCard(3, "暗記する", "あんきする", "apprendre par coeur"));
+	myFlashCards.push_back(flashCard(3, "丸暗記", "まるあんき", "apprentissage par coeur, mécanique"));
+	myFlashCards.push_back(flashCard(3, "白人", "はくじん", "Blancs (gens)"));
+	myFlashCards.push_back(flashCard(3, "白紙", "はくし", "page blanche, feuille vierge"));
+
+	myFlashCards.push_back(flashCard(3, "黒い　(seul)", "くろい", "c'est noir"));
+	myFlashCards.push_back(flashCard(3, "赤い　(seul)", "あかい", "c'est rouge"));
+	myFlashCards.push_back(flashCard(3, "青い　(seul)", "あおい", "c'est bleu/vert"));
+	myFlashCards.push_back(flashCard(3, "長い　(seul)", "ながい", "c'est long"));
+	myFlashCards.push_back(flashCard(3, "多い　(seul)", "おおい", "nombreux"));
+	myFlashCards.push_back(flashCard(3, "古い　(seul)", "ふるい", "c'est vieux/ancien"));
+	myFlashCards.push_back(flashCard(3, "白黒", "しろくろ", "noir et blanc"));
+	myFlashCards.push_back(flashCard(3, "黒ばん", "こくばん", "tableau (d'école)"));
+	myFlashCards.push_back(flashCard(3, "黒人", "こくじん", "Noirs (gens)"));
+	myFlashCards.push_back(flashCard(3, "赤ちゃん", "あかちゃん", "bébé"));
+	myFlashCards.push_back(flashCard(3, "赤十字", "せきじゅうじ", "La Croix Rouge"));
+	myFlashCards.push_back(flashCard(3, "青白い", "あおじろい", "blême, pâle"));
+	myFlashCards.push_back(flashCard(3, "青しんごう", "あおしんごう", "feu vert (circulation)"));
+	myFlashCards.push_back(flashCard(3, "赤しんごう", "あかしんごう", "feu rouge (circulation)"));
+	myFlashCards.push_back(flashCard(3, "青少年", "せいしょうねん", "jeunes, jeunesse"));
+	myFlashCards.push_back(flashCard(3, "長話", "ながばなし", "bavardage sans fin"));
+	myFlashCards.push_back(flashCard(3, "長しょ", "ちょうしょ", "qualité, mérite"));
+	myFlashCards.push_back(flashCard(3, "多少", "たしょう", "beaucoup ou peu, plus ou moins"));
+	myFlashCards.push_back(flashCard(3, "多分", "たぶん", "peut-être, probablement"));
+	myFlashCards.push_back(flashCard(3, "中古", "ちゅうこ", "d'occasion, de seconde main"));
+	myFlashCards.push_back(flashCard(3, "ふるほん", "", "livre d'occasion, vieux livre"));
+
+	// Il en manque:
+
+	// No 169-180:
+	myFlashCards.push_back(flashCard(3, "台 (seul)", "だい", "socle, base"));
+	myFlashCards.push_back(flashCard(3, "枚 (seul)", "まい", "feuille, page"));
+	myFlashCards.push_back(flashCard(3, "早い (seul)", "はやい", "tôt, précoce, vite"));
+	myFlashCards.push_back(flashCard(3, "遠い (seul)", "とおい", "loin"));
+	myFlashCards.push_back(flashCard(3, "近い (seul)", "ちかい", "près"));
+	myFlashCards.push_back(flashCard(3, "心 (seul)", "こころ", "coeur, esprit"));
+	myFlashCards.push_back(flashCard(3, "台所", "だいどころ", "cuisine (maison)"));
+	myFlashCards.push_back(flashCard(3, "台風", "たいふう", "typhon"));
+	myFlashCards.push_back(flashCard(3, "二枚目", "にまいめ", "beau garçon"));
+	myFlashCards.push_back(flashCard(3, "三枚目", "さんまいめ", "rôle comique (théâtre)"));
+	myFlashCards.push_back(flashCard(3, "早おき（する）", "はやおき", "matinal, lève-tôt"));
+	myFlashCards.push_back(flashCard(3, "早朝", "そうちょう", "de bon matin, tôt le matin"));
+	myFlashCards.push_back(flashCard(3, "遠足", "えんそく", "pique-nique, excursion"));
+	myFlashCards.push_back(flashCard(3, "遠りょ（する）", "えんりょ", "retenue, réserve, discrétion"));
+	myFlashCards.push_back(flashCard(3, "遠ざかる", "とおざかる", "s'éloigner"));
+	myFlashCards.push_back(flashCard(3, "近年", "きんねん", "depuis quelques années"));
+	myFlashCards.push_back(flashCard(3, "近じょ", "きんじょ", "voisinage"));
+	myFlashCards.push_back(flashCard(3, "さい近", "さいきん", "récemment"));
+	myFlashCards.push_back(flashCard(3, "近付く", "ちかづく", "se rapprocher"));
+	myFlashCards.push_back(flashCard(3, "安心（する）", "あんしん", "tranquilité d'esprit"));
+	myFlashCards.push_back(flashCard(3, "中心", "ちゅうしん", "centre, milieur, coeur"));
+
+	myFlashCards.push_back(flashCard(3, "思う (seul)", "おもう", "penser"));
+	myFlashCards.push_back(flashCard(3, "町　(seul)", "まち", "ville, quartier"));
+	myFlashCards.push_back(flashCard(3, "楽しい　(seul)", "たのしい", "plaisant, agréable"));
+	myFlashCards.push_back(flashCard(3, "牛　(seul)", "うし", "vache, boeuf"));
+	myFlashCards.push_back(flashCard(3, "物　(seul)", "もの", "chose, objet"));
+	myFlashCards.push_back(flashCard(3, "送る　(seul)", "おくる", "envoyer, accompagner"));
+	myFlashCards.push_back(flashCard(3, "思い出", "おもいで", "souvenir"));
+	myFlashCards.push_back(flashCard(3, "思い出す", "おもいだす", "se remémorer, se rappeler"));
+	myFlashCards.push_back(flashCard(3, "思そう", "しそう", "pensée, philosophie"));
+	myFlashCards.push_back(flashCard(3, "楽", "らく", "confortable, agréable"));
+	myFlashCards.push_back(flashCard(3, "音楽", "おんがく", "musique"));
+	myFlashCards.push_back(flashCard(3, "下町", "したまち", "quartier populaire"));
+	myFlashCards.push_back(flashCard(3, " 町立", "ちょうりつ", "communal, fondé par le quartier"));
+	myFlashCards.push_back(flashCard(3, "子牛", "こうし", "veau"));
+	myFlashCards.push_back(flashCard(3, "牛にゅう", "ぎゅうにゅう", "lait"));
+	myFlashCards.push_back(flashCard(3, "牛肉", "ぎゅうにく", "viande de boeuf"));
+	myFlashCards.push_back(flashCard(3, "見物", "けんぶつ", "visite (touristique)"));
+	myFlashCards.push_back(flashCard(3, "物か", "ぶっか", "coût de la vie"));
+	myFlashCards.push_back(flashCard(3, "人物", "じんぶつ", "personnage (cinéma), personne"));
+	myFlashCards.push_back(flashCard(3, "送金", "そうきん", "envoi d'argent"));
+	myFlashCards.push_back(flashCard(3, "送信", "そうしん", "envoi d'un message"));
+
 	return myFlashCards;
 }
+
+static vector<flashCard> createKanjiListJPN1904()
+{
+	vector<flashCard> myFlashCards;
+
+	myFlashCards.push_back(flashCard(3, "部 (seul)", "ぶ", "section, partie, portion"));
+	myFlashCards.push_back(flashCard(3, "走る (seul)", "はしる", "courir, rouler (voitures)"));
+	myFlashCards.push_back(flashCard(3, "起きる (seul)", "おきる", "se lever, lever, réveiller, produire, causer, se produire"));
+	myFlashCards.push_back(flashCard(3, "鳥 (seul)", "とり", "oiseau"));
+	myFlashCards.push_back(flashCard(3, "遊ぶ (seul)", "あそぶ", "se divertir, s'amuser, inactif, innocupé, jouer"));
+	myFlashCards.push_back(flashCard(3, "待つ (seul)", "まつ", "attendre, espérer"));
+	myFlashCards.push_back(flashCard(3, "部門", "ぶもん", "section, secteur, classe, catégorie"));
+	myFlashCards.push_back(flashCard(3, "学部", "がくぶ", "faculté (université"));
+	myFlashCards.push_back(flashCard(3, "走しゃ", "そうしゃ", "coureur"));
+	myFlashCards.push_back(flashCard(3, "かん走", "かんそう", "compléter une course"));
+	myFlashCards.push_back(flashCard(3, "起立", "きりつ", "se lever, se mettre debout"));
+	myFlashCards.push_back(flashCard(3, "起しょう", "きしょう", "se lever, sortir du lit"));
+	myFlashCards.push_back(flashCard(3, "起こす", "おこす", "réveiller qqun, causer, produire"));
+	myFlashCards.push_back(flashCard(3, "部屋", "へや", "pièce, chambre, salle"));
+	myFlashCards.push_back(flashCard(3, "小鳥", "ことり", "petit oiseau, oiselet"));
+	myFlashCards.push_back(flashCard(3, "やき鳥", "やきとり", "yakitori (brochette de poulet)"));
+	myFlashCards.push_back(flashCard(3, "白鳥", "はくちょう", "cygne"));
+	myFlashCards.push_back(flashCard(3, "遊び", "あそび", "jeu, amusement, passe-temps"));
+	myFlashCards.push_back(flashCard(3, "遊えん地", "ゆうえんち", "parc d'attraction"));
+	myFlashCards.push_back(flashCard(3, "待あい室", "まちあいしつ", "salle d'attente"));
+	myFlashCards.push_back(flashCard(3, "しょう待", "しょうたい", "invitation"));
+
+	myFlashCards.push_back(flashCard(3, "急ぐ (seul)", "いそぐ", "se presser"));
+	myFlashCards.push_back(flashCard(3, "呼ぶ (seul)", "よぶ", "appeler"));
+	myFlashCards.push_back(flashCard(3, "住んでいる (seul)", "すんでいる", "habiter, vivre"));
+	myFlashCards.push_back(flashCard(3, "所 (seul)", "ところ", "endroit"));
+	myFlashCards.push_back(flashCard(3, "市 (seul)", "し", "cité"));
+	myFlashCards.push_back(flashCard(3, "取る (seul)", "とる", "prendre, passer"));
+	myFlashCards.push_back(flashCard(3, "急かす", "せかす", "presser, presser quelqu'un"));
+	myFlashCards.push_back(flashCard(3, "急行", "きゅうこう", "(train) express"));
+	myFlashCards.push_back(flashCard(3, "急に", "きゅうに", "brusquement, soudain"));
+	myFlashCards.push_back(flashCard(3, "呼び出し", "よびだし", "convocation, appel"));
+	myFlashCards.push_back(flashCard(3, "呼きゅう", "こきゅう", "respiration"));
+	myFlashCards.push_back(flashCard(3, "住たく地", "じゅうたくち", "zone résidentielle"));
+	myFlashCards.push_back(flashCard(3, "えい住", "えいじゅう", "résidence permanente"));
+	myFlashCards.push_back(flashCard(3, "台所", "だいどころ", "cuisine (maison)"));
+	myFlashCards.push_back(flashCard(3, "住所", "じゅうしょ", "adresse"));
+	myFlashCards.push_back(flashCard(3, "場所", "ばしょ", "endroit, lieu"));
+	myFlashCards.push_back(flashCard(3, "市場", "いちば", "marché (légumes, etc.)"));
+	myFlashCards.push_back(flashCard(3, "市立", "しりつ", "municipal"));
+	myFlashCards.push_back(flashCard(3, "鳥取市", "とっとりし", "Ville de Tottori"));
+	myFlashCards.push_back(flashCard(3, "取ざい", "しゅざい", "cueillette de renseignements"));
+	myFlashCards.push_back(flashCard(3, "取って", "とって", "poignée"));
+
+	return myFlashCards;
+}
+
+static vector<flashCard> createVocabularyListJPN1903()
+{
+	vector<flashCard> myFlashCards;
+
+	// L14
+	myFlashCards.push_back(flashCard(3, "急ぐ", "いそぐ", "se presser"));
+	myFlashCards.push_back(flashCard(3, "座る", "すわる", "s'asseoir"));
+	myFlashCards.push_back(flashCard(3, "立つ", "たつ", "se mettre debout, se lever"));
+	myFlashCards.push_back(flashCard(3, "降る", "ふる", "tomber (pluie, neige)"));
+	myFlashCards.push_back(flashCard(3, "入る", "はいる", "entrer (dans)"));
+	myFlashCards.push_back(flashCard(3, "出る", "でる", "sortir (de)"));
+	myFlashCards.push_back(flashCard(3, "曲がる", "まがる", "tourner"));
+	myFlashCards.push_back(flashCard(3, "開ける", "あける", "ouvrir"));
+	myFlashCards.push_back(flashCard(3, "教える", "おしえる", "enseigner, montrer, donner (information)"));
+	myFlashCards.push_back(flashCard(3, "消す", "けす", "éteindre, fermer, arrêter, effacer"));
+	myFlashCards.push_back(flashCard(3, "閉める", "しめる", "fermer"));
+	myFlashCards.push_back(flashCard(3, "使う", "つかる", "utiliser, employer"));
+	myFlashCards.push_back(flashCard(3, "点ける", "つける", "allumer, mettre en marche"));
+	myFlashCards.push_back(flashCard(3, "手伝う", "てつだう", "aider"));
+	myFlashCards.push_back(flashCard(3, "止める", "とめる", "arrêter, stationner"));
+	myFlashCards.push_back(flashCard(3, "取る", "とる", "prendre"));
+	myFlashCards.push_back(flashCard(3, "話す", "はなす", "parler"));
+	myFlashCards.push_back(flashCard(3, "待つ", "まつ", "attendre"));
+	myFlashCards.push_back(flashCard(3, "見せる", "みせる", "montrer, faire voir"));
+	myFlashCards.push_back(flashCard(3, "持つ", "もつ", "porter, tenir"));
+	myFlashCards.push_back(flashCard(3, "呼ぶ", "よぶ", "appeler"));
+	myFlashCards.push_back(flashCard(3, "急ぐ", "いそぐ", "accélérer (le travail)"));
+	myFlashCards.push_back(flashCard(3, "", "コピー", "copie, photocopie"));
+	myFlashCards.push_back(flashCard(3, "", "コピーする", "photocopier"));
+	myFlashCards.push_back(flashCard(3, "雨", "あめ", "pluie"));
+	myFlashCards.push_back(flashCard(3, "雪", "ゆき", "neige"));
+	myFlashCards.push_back(flashCard(3, "雨が降る", "あめがふる", "pleuvoir"));
+	myFlashCards.push_back(flashCard(3, "雪が降る", "ゆきがふる", "neiger"));
+	myFlashCards.push_back(flashCard(3, "電気", "でんき", "électricité, lumière"));
+	myFlashCards.push_back(flashCard(3, "", "エアコン", "air conditionné, climatisation"));
+	myFlashCards.push_back(flashCard(3, "", "パスポート", "passeport "));
+	myFlashCards.push_back(flashCard(3, "名前", "なまえ", "nom"));
+	myFlashCards.push_back(flashCard(3, "住所", "じゅうしょ", "adresse"));
+	myFlashCards.push_back(flashCard(3, "地図", "ちず", "plan, carte"));
+	myFlashCards.push_back(flashCard(3, "塩", "しお", "sel"));
+	myFlashCards.push_back(flashCard(3, "砂糖", "さとう", "sucre"));
+	myFlashCards.push_back(flashCard(3, "問題", "もんだい", "problème, question"));
+	myFlashCards.push_back(flashCard(3, "答え", "こたえ", "réponse"));
+	myFlashCards.push_back(flashCard(3, "方", "かた", "manière de, façon de  (BC1 + かた)"));
+	myFlashCards.push_back(flashCard(3, "読み方", "よみかた", "façon de lire, lecture"));
+	myFlashCards.push_back(flashCard(3, "信号", "しんごう", "feu de circulation"));
+	myFlashCards.push_back(flashCard(3, "お釣り", "おつり", "monnaie"));
+	myFlashCards.push_back(flashCard(3, "音読み", "おんよみ", "lecture sino-japonaise"));
+	myFlashCards.push_back(flashCard(3, "日記", "にっき", "journal personnel"));
+	myFlashCards.push_back(flashCard(3, "母国語", "ぼこくご", "langue maternelle"));
+	myFlashCards.push_back(flashCard(3, "", "ゆっくり", "lentement, doucement"));
+	myFlashCards.push_back(flashCard(3, "又", "また", "encore, de nouveau"));
+	myFlashCards.push_back(flashCard(3, "", "もう", "encore, de plus, déjà"));
+	myFlashCards.push_back(flashCard(3, "もう少し", "もうすこし", "un peu plus"));
+	myFlashCards.push_back(flashCard(3, "", "すぐ", "tout de suite"));
+	myFlashCards.push_back(flashCard(3, "後で", "あとで", "plus tard, après"));
+	myFlashCards.push_back(flashCard(3, "", "まっすぐ", "tout droit"));
+	myFlashCards.push_back(flashCard(3, "一日中", "いちにちじゅう", "toute la journée"));
+
+	// L15
+	myFlashCards.push_back(flashCard(3, "置く", "おく", "mettre, placer, poser"));
+	myFlashCards.push_back(flashCard(3, "作る", "つくる", "fabriquer, faire (gâteaux, etc.)"));
+	myFlashCards.push_back(flashCard(3, "売る", "うる", "vendre"));
+	myFlashCards.push_back(flashCard(3, "知る", "しる", "apprendre, savoir"));
+	myFlashCards.push_back(flashCard(3, "住む", "すむ", "habiter, vivre quelque part"));
+	myFlashCards.push_back(flashCard(3, "知っている", "しっている", "savoir, connaître (-ている)"));
+	myFlashCards.push_back(flashCard(3, "住んでいる", "すんでいる", "habiter, résider à (-でいる)"));
+	myFlashCards.push_back(flashCard(3, "立っている", "たっている", "être debout (-ている)"));
+	myFlashCards.push_back(flashCard(3, "研究", "けんきゅう", "recherche, étude"));
+	myFlashCards.push_back(flashCard(3, "研究する", "けんきゅうする", "faire des recherches, étudier"));
+	myFlashCards.push_back(flashCard(3, "思い出す", "おもいだす", "se rappeler, se souvenir de"));
+	myFlashCards.push_back(flashCard(3, "資料", "しりょう", "documents, matériaux"));
+	myFlashCards.push_back(flashCard(3, "", "カタログ", "catalogue"));
+	myFlashCards.push_back(flashCard(3, "時刻表", "じこくひょう", "horaire (train, bus, etc.)"));
+	myFlashCards.push_back(flashCard(3, "服", "ふく", "vêtements"));
+	myFlashCards.push_back(flashCard(3, "製品", "せいひん", "produits"));
+	myFlashCards.push_back(flashCard(3, "", "ソフト", "logiciel"));
+	myFlashCards.push_back(flashCard(3, "電子辞書", "でんしじしょ", "dictionnaire électronique"));
+	myFlashCards.push_back(flashCard(3, "歯医者", "はいしゃ", "dentiste"));
+	myFlashCards.push_back(flashCard(3, "経済", "けいざい", "économie"));
+	myFlashCards.push_back(flashCard(3, "市役所", "しやくしょ", "mairie, hôtel de ville"));
+	myFlashCards.push_back(flashCard(3, "高校", "こうこう", "lycée (court pour 高等学校　ー　こうとうがっこう)"));
+	myFlashCards.push_back(flashCard(3, "独身", "どくしん", "célibataire"));
+	myFlashCards.push_back(flashCard(3, "小学生", "しょうがくせい", "élève d'une école primaire"));
+	myFlashCards.push_back(flashCard(3, "皆さん", "みなさん", "vous, eux, vous tous, tout le monde, etc."));
+	myFlashCards.push_back(flashCard(3, "", "いらっしゃいます", "être, se trouver quelque part (respecteux pour いる)"));
+	myFlashCards.push_back(flashCard(3, "体にいい", "からだにいい", "bon pour la santé"));
+	myFlashCards.push_back(flashCard(3, "体に悪い", "からだにわるい", "mauvais pour la santé"));
+
+	// L16
+	myFlashCards.push_back(flashCard(3, "押す", "おす", "appuyer sur, presser, pousser"));
+	myFlashCards.push_back(flashCard(3, "下ろす", "おろす", "retirer (de l'argent à la banque)"));
+	myFlashCards.push_back(flashCard(3, "出す", "だす", "sortir de, retirer, poster (une lettre)"));
+	myFlashCards.push_back(flashCard(3, "飲む", "のむ", "boire, prendre de l'alcool"));
+	myFlashCards.push_back(flashCard(3, "乗る", "のる", "monter (dans un véhicule)"));
+	myFlashCards.push_back(flashCard(3, "浴びる", "あびる", "s'asperger, jeter de l'eau sur soi"));
+	myFlashCards.push_back(flashCard(3, "入れる", "いれる", "mettre dans, insérer, introduire"));
+	myFlashCards.push_back(flashCard(3, "降りる", "おりる", "descendre (d'un véhicule)"));
+	myFlashCards.push_back(flashCard(3, "出る", "でる", "sortir (d'un endroit)"));
+	myFlashCards.push_back(flashCard(3, "乗り換える", "のりかえる", "changer (de moyen de transport)"));
+	myFlashCards.push_back(flashCard(3, "始める", "はじめる", "commencer"));
+	myFlashCards.push_back(flashCard(3, "電話する", "でんわする", "téléphoner"));
+	myFlashCards.push_back(flashCard(3, "入学", "にゅうがく", "entrée à l'école"));
+	myFlashCards.push_back(flashCard(3, "入学する", "にゅうがくする", "entrer à l'école"));
+	myFlashCards.push_back(flashCard(3, "卒業", "そつぎょう", "fin d'études"));
+	myFlashCards.push_back(flashCard(3, "卒業する", "そつぎょうする", "terminer ses études"));
+	myFlashCards.push_back(flashCard(3, "見学", "けんがく", "visite (dans un but d'études)"));
+	myFlashCards.push_back(flashCard(3, "見学する", "けんがくする", "visiter (dans un but d'études)"));
+	myFlashCards.push_back(flashCard(3, "", "ジョギング", "jogging"));
+	myFlashCards.push_back(flashCard(3, "", "ジョギングする", "faire du jogging"));
+	myFlashCards.push_back(flashCard(3, "", "シャワー", "douche"));
+	myFlashCards.push_back(flashCard(3, "シャワーを浴びる", "シャワーをあびる", "se doucher"));
+	myFlashCards.push_back(flashCard(3, "体", "からだ", "corps"));
+	myFlashCards.push_back(flashCard(3, "頭", "あたま", "tête"));
+	myFlashCards.push_back(flashCard(3, "髪", "かみ", "cheveux"));
+	myFlashCards.push_back(flashCard(3, "顔", "かお", "visage, figure"));
+	myFlashCards.push_back(flashCard(3, "目", "め", "oeil, yeux"));
+	myFlashCards.push_back(flashCard(3, "耳", "みみ", "oreille"));
+	myFlashCards.push_back(flashCard(3, "口", "くち", "bouche"));
+	myFlashCards.push_back(flashCard(3, "歯", "は", "dent"));
+	myFlashCards.push_back(flashCard(3, "お腹", "おなか", "ventre"));
+	myFlashCards.push_back(flashCard(3, "鼻", "はな", "nez"));
+	myFlashCards.push_back(flashCard(3, "足（脚）", "あし", "pied (jambe)"));
+	myFlashCards.push_back(flashCard(3, "背が高い", "せがたかい", "grand (être grand en taille)"));
+	myFlashCards.push_back(flashCard(3, "頭がいい", "あたまがいい", "être intelligent"));
+	myFlashCards.push_back(flashCard(3, "若い", "わかい", "jeune"));
+	myFlashCards.push_back(flashCard(3, "長い", "ながい", "long"));
+	myFlashCards.push_back(flashCard(3, "短い", "みじかい", "court"));
+	myFlashCards.push_back(flashCard(3, "明るい", "あかるい", "clair, lumineux"));
+	myFlashCards.push_back(flashCard(3, "暗い", "くらい", "sombre"));
+	myFlashCards.push_back(flashCard(3, "出口", "でぐち", "sortie"));
+	myFlashCards.push_back(flashCard(3, "目的", "もくてき", "but, objectif"));
+	myFlashCards.push_back(flashCard(3, "お寺", "おてら", "temple bouddhique"));
+	myFlashCards.push_back(flashCard(3, "神社", "じんじゃ", "temple shintô, sanctuaire shintô"));
+	myFlashCards.push_back(flashCard(3, "緑", "みどり", "vert, verdure"));
+	myFlashCards.push_back(flashCard(3, "ラーメン屋", "ラーメンや", "restaurant de ramen"));
+	myFlashCards.push_back(flashCard(3, "番", "ばん", "numéro - (suffixe pour compter)"));
+	myFlashCards.push_back(flashCard(3, "", "どうやって", "comment (s'y prend-on pour ...) ?"));
+	myFlashCards.push_back(flashCard(3, "", "まず", "d'abord, pour commencer"));
+	myFlashCards.push_back(flashCard(3, "次に", "つぎに", "ensuite, après, puis"));
+	myFlashCards.push_back(flashCard(3, "", "キャッシュカード", "carte de guichet, cash card"));
+	myFlashCards.push_back(flashCard(3, "暗証番号", "あんしょうばんごう", "numéro de code secret"));
+	myFlashCards.push_back(flashCard(3, "金額", "きんがく", "montant, somme d'argent"));
+	myFlashCards.push_back(flashCard(3, "", "ボタン", "bouton"));
+	myFlashCards.push_back(flashCard(3, "確認", "かくにん", "confirmation"));
+	myFlashCards.push_back(flashCard(3, "確認する", "かくにんする", "confirmer, vérifier"));
+
+	// L17
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+	// myFlashCards.push_back(flashCard(3, "", "", ""));
+
+	for(auto &card : myFlashCards)
+		card.setAsVocabularyCard();
+
+	return myFlashCards;
+}
+
 
 int main(){
 
@@ -419,25 +757,35 @@ int main(){
 
 	// Construct the kanji list
 	string input;
-	bool lvl1 = false, lvl2 = false, lvl3 = true;
+	bool lvl1 = false, lvl2 = false, lvl3 = false, lvl4 = true;
+	bool mixVocabularyAndKanji = false;
+
 	printf("Include kanjis from JPN1901? Enter Y/y for yes (ignoring any other entry):\n");
 	cin >> input;
 	if(input == "Y" || input == "y"){
 		lvl1 = true;
 	}
+
 	printf("Include kanjis from JPN1902? Enter Y/y for yes (ignoring any other entry):\n");
 	cin >> input;
 	if(input == "Y" || input == "y"){
 		lvl2 = true;
 	}
-	// printf("Include kanjis from JPN1903? Enter Y/y for yes (ignoring any other entry):\n");
-	// cin >> input;
-	// if(input == "Y" || input == "y"){
-	// 	lvl3 = true;
-	// }
 
-	if(lvl2){
-		printf("The focus is on the kanjis from JPN1903. Choose the frequency (in percents, integer number in [1,100]) with which they will appear. The rest will be from a mix of previous courses.\n");
+	printf("Include kanjis from JPN1903? Enter Y/y for yes (ignoring any other entry):\n");
+	cin >> input;
+	if(input == "Y" || input == "y"){
+		lvl3 = true;
+	}
+
+	printf("Include vocabulary from JPN1903? Enter Y/y for yes (ignoring any other entry):\n");
+	cin >> input;
+	if(input == "Y" || input == "y"){
+		mixVocabularyAndKanji = true;
+	}
+
+	if(lvl1 || lvl2 || lvl3){
+		printf("The focus is on the kanjis from JPN1904. Choose the frequency (in percents, integer in [1,100]) with which they will appear. The rest will be from a mix of previous courses.\n");
 		cin >> input;
 		while(stoi(input) < 0 || stoi(input) > 100){
 			printf("Wrong entry for the ratio of new kanji, please type again\n");
@@ -447,24 +795,46 @@ int main(){
 
 		vector<flashCard> kanji1902 = createKanjiListJPN1902();
 		vector<flashCard> kanji1903 = createKanjiListJPN1903();
+		vector<flashCard> kanji1904 = createKanjiListJPN1904();
 
 		// Create the flashcard vector to have ratioOfNewKanji % of the newest kanjis
-		size_t totalKanjis = ceil(kanji1903.size() / (ratioOfNewKanji/100.0) );
+		size_t totalKanjis = ceil(kanji1904.size() / (ratioOfNewKanji/100.0) );
 		size_t toAdd = ceil(totalKanjis * (1. - ratioOfNewKanji/100.0) );
 
-		printf("Asking %d  percents of kanji from JPN1903 (%ld total) - There should be %ld total kanji - Adding %ld old kanji\n",
-			ratioOfNewKanji, kanji1903.size(), totalKanjis, toAdd);
+		printf("Asking %d  percents of kanji from JPN1904 (%ld total) - There should be %ld total kanji - Adding %ld old kanji\n",
+			ratioOfNewKanji, kanji1904.size(), totalKanjis, toAdd);
 
-		random_shuffle(begin(kanji1902), end(kanji1902));
+		vector<flashCard> kanjiToAdd(0);
 
-		for(auto val : kanji1903)
+		if(lvl2){
+			for(auto card : kanji1902)
+				kanjiToAdd.push_back(card);
+		}
+
+		if(lvl3){
+			for(auto card : kanji1903)
+				kanjiToAdd.push_back(card);
+		}
+
+		random_shuffle(begin(kanjiToAdd), end(kanjiToAdd));
+
+		for(auto val : kanji1904)
 			myFlashCards.push_back(val);
+
 		for(size_t i = 0; i < toAdd; ++i)
-			myFlashCards.push_back(kanji1902[i]);
+			myFlashCards.push_back(kanjiToAdd[i]);
+
 	} else{
 
-		myFlashCards = createKanjiListJPN1903();
+		myFlashCards = createKanjiListJPN1904();
 
+	}
+
+	if(mixVocabularyAndKanji){
+		vector<flashCard> voc = createVocabularyListJPN1903();
+		for(auto card : voc){
+			myFlashCards.push_back(card);
+		}
 	}
 
 	// Start the thingy
@@ -486,8 +856,13 @@ int main(){
 			random = rand() % myFlashCards.size();
 			card = myFlashCards[random];
 
-			printf("Quel est ce kanji (T pour voir la traduction - STOP pour quitter) : %s - Progression : %3d/%3d - Restants : %ld\n", 
+			if(card.isVocabulary()){
+				printf("Comment traduit-on ce mot ? (Kanji ou hiragana - STOP pour quitter) : %s - Progression : %3d/%3d - Restants : %ld\n", 
+				card.getTraduction().data(), corrects, listSize, myFlashCards.size());
+			} else{
+				printf("Quel est ce kanji ? (T pour voir la traduction - STOP pour quitter) : %s - Progression : %3d/%3d - Restants : %ld\n", 
 				card.getKanji().data(), corrects, listSize, myFlashCards.size());
+			}
 		}
 
 		cin >> input;
@@ -502,7 +877,15 @@ int main(){
 			askAgain = true;
 
 		}	else{
-			bool result = card.checkAnswerHiragana(input);
+			bool result;
+			if(card.isVocabulary()){
+				// Accept both kanji and hiragana/katakana for vocabulary card
+				result = card.checkAnswerKanji(input) || card.checkAnswerHiragana(input);
+			} else{
+				// Accept only hiragana for kanji card
+				result = card.checkAnswerHiragana(input);
+			}
+			
 			printf("Valeur entrée : %s - Hiragana : %s - Traduction : %s ------> %s\n\n\n",
 				input.data(), card.getHiragana().data(), card.getTraduction().data(), (result ? "Success!" : "Mauvaise réponse )-:"));
 
